@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Clinica Muelita</title>
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- SweerAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+<body>
+
+<div class="menu-dashboard">
+
+    <!-- Top Menú -->
+    <div class="top-menu">
+
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./assets/muelita.png" alt="">
+            </a>
+            <span>Muelita</span>
+        </div>
+
+        <div class="toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+
+    </div>
+
+    <div class="input-search">
+        <i class='bx bx-search-alt-2'></i>
+        <input type="text" class="input" placeholder="buscar paciente..">
+    </div>
+
+    <!-- Menú -->
+    <div class="menu">
+        <div class="link link-home">
+            <i class='bx bx-home-alt-2'></i>
+            <span>Home</span>
+        </div>
+
+        <div class="link link-odontologo">
+            <i class='bx bxs-contact'></i>
+            <span>Odontólogos</span>
+        </div>
+
+        <div class="link link-paciente">
+            <i class='bx bx-user'></i>
+            <span>Pacientes</span>
+        </div>
+
+        <div class="link link-turno">
+            <i class='bx bx-calendar'></i>
+            <span>Turnos</span>
+        </div>
+    </div>
+
+</div>
+
+<main>
+
+    <div class="main-title">
+        <h2>Sistema Clinica Muelita</h2>
+        <p>By: Parula - Clemente</p>
+        <a href="/swagger" class="link-swagger">
+            <p>Documentacion Swagger <i class='bx bxs-file-doc'></i></p>
+        </a>
+    </div>
+
+    <div class="dashboard">
+        <div class="dashboard-content"></div>
+    </div>
+</main>
+
+<script src="./js/index.js" type="module"></script>
+</body>
+</html>
